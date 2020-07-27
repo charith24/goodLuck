@@ -22,7 +22,7 @@ public class LoginDAO {
 			else
 			{
 				con.getConnection().close();
-				return false;
+				return true;
 			}
 		}
 		
